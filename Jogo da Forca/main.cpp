@@ -118,8 +118,8 @@ int main()
                     L6 = 'A';
                     break;
             }
-            cout << "Tente adivinhar a palavra!\n\n\n";
             while(contAcertos < 6 && contTentativas > 0){  //Loop das tentativas feitas pelo usuário
+                cout << "Tente adivinhar a palavra!\n\n\n";
                 cout << und1 << " " << und2 << " " << und3 << " " << und4 << " " << und5 << " " << und6 << "\n\n";
                 cout << "\nVocê acertou " << contAcertos << " letra(s) e ainda tem " << contTentativas << " tentativas.\nDigite uma letra: ";
                 cin >> chute;
@@ -150,7 +150,8 @@ int main()
                     contTentativas--;
                     cout << "\n\nVocê errou.\n\n\n";
                 }
-
+            system("pause");
+            system("cls");
             }
             if(contTentativas == 0){  //Apresenta o resultado do jogo
                 cout << "***Suas tentativas acabaram. Você perdeu.***\n\nVoltando ao menu. ";
