@@ -123,9 +123,7 @@ int main()
                 cout << und1 << " " << und2 << " " << und3 << " " << und4 << " " << und5 << " " << und6 << "\n\n";
                 cout << "\nVocê acertou " << contAcertos << " letra(s) e ainda tem " << contTentativas << " tentativas.\nDigite uma letra: ";
                 cin >> chute;
-                if(chute == und1 || chute == und2 || chute == und3 || chute == und4 || chute == und5 || chute == und6){
-                    cout << "\nVocê já digitou essa letra. Tente outra.\n\n";
-                }else if(chute == L1 || chute == L2 || chute == L3 || chute == L4 || chute == L5 || chute == L6){
+                if(chute == L1 || chute == L2 || chute == L3 || chute == L4 || chute == L5 || chute == L6){
                     if(chute == L1){
                     und1 = L1;
                     contAcertos++;
@@ -150,7 +148,6 @@ int main()
                     contTentativas--;
                     cout << "\n\nVocê errou.\n\n\n";
                 }
-
             }
             if(contTentativas == 0){  //Apresenta o resultado do jogo
                 cout << "***Suas tentativas acabaram. Você perdeu.***\n\nVoltando ao menu. ";

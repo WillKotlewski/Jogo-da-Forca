@@ -1,11 +1,5 @@
 # depslib dependency file v1.0
-1746809184 source:c:\users\will\documents\c++\trabalho algoritmos m2\main.cpp
-	<iostream>
-	<locale.h>
-	<stdlib.h>
-	<time.h>
-
-1747248013 source:c:\users\will\documents\c++\willian jose kotlewski kulakowski, vinicius tadeu, leandro de oliveira\main.cpp
+1747872966 source:c:\users\7958250\downloads\main.cpp
 	<iostream>
 	<locale.h>
 	<stdlib.h>
